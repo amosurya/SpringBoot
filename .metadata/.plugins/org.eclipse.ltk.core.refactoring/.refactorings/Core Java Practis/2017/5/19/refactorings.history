@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.thread.CallableThread.java&apos; to &apos;CallableThreadmain.java&apos;&#x0D;&#x0A;- Original project: &apos;Core Java Practis&apos;&#x0D;&#x0A;- Original element: &apos;com.thread.CallableThread.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.thread.CallableThreadmain.java&apos;" description="Rename compilation unit &apos;CallableThread.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.thread{CallableThread.java" name="CallableThreadmain.java" references="false" stamp="1494302841914" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+package com.thread;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+class CallableThread implements Callable<String> {
+
+	@Override
+	public String call() throws Exception {
+		for (int i = 0; i < 5; i++) {
+			System.out.println(i);
+		}
+		return Thread.currentThread().getName();
+	}
+
+
+}
+
+public class CallableThreadmain {
+
+	public static void main(String[] args) {
+			ExecutorService service = Executors.newFixedThreadPool(5);
+			List<Future<String>> list = new ArrayList<>();
+
+	}
+
+}

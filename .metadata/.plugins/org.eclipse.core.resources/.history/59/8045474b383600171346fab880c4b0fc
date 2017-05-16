@@ -1,0 +1,28 @@
+
+class Parent{
+	void show(){
+		System.out.println("----");
+	}
+}
+
+class Child extends Parent{
+	void show(){
+		System.out.println("+++++");
+	}
+}
+public class Overriding {
+	void show(Child c){
+		System.out.println("cccc+++++");
+	}
+	void show(Parent p){
+		System.out.println("ppp+++++");
+	}
+
+	public static void main(String[] args) {
+		
+		Parent parent = new Child();
+		//Child parent = new Parent();
+
+	}
+
+}

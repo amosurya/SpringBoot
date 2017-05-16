@@ -1,0 +1,12 @@
+package com.thread;
+
+Class  
+
+public class CallableThreadmain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
