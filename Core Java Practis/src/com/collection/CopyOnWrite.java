@@ -6,11 +6,11 @@ public class CopyOnWrite {
 		 try {
 	            int result = 2/0;
 	            System.out.println(result);
-	        }/*catch(Exception e){
+	        }catch(Exception e){
 	        	System.out.println("++++++++++++");
-	        }*//*catch(ArithmeticException e){
+	        }/*catch(ArithmeticException e){
 	        	System.out.println("++++++++++++");
-	        } */ 
+	        }*/ 
 		 finally{
 	        	System.out.println("------------");
 	        }
